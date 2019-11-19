@@ -37,6 +37,7 @@ namespace CreateDatafixRegistry
                     nameFileInfoPairs.Add(excelFile.Name, excelFile);
                 }
 
+                LboxExcelFileList.Items.Clear();
                 foreach (FileInfo excelFile in nameFileInfoPairs.Values)
                 {
                     LboxExcelFileList.Items.Add(excelFile);
